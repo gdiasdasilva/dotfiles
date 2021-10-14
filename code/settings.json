@@ -1,7 +1,6 @@
 {
-
-    "workbench.colorTheme": "Material Theme High Contrast",
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -19,55 +18,46 @@
     "editor.rulers": [
         100
     ],
-    "window.zoomLevel": 0,
     "sync.gist": "c244397debc8d3d5e13e3fb31be098a5",
     "sync.quietSync": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
     "sync.autoDownload": true,
-    "sync.autoUpload": false,
+    "sync.autoUpload": true,
     "sync.forceDownload": false,
-    "terminal.integrated.letterSpacing": null,
     "terminal.integrated.lineHeight": 1.4,
-    "terminal.integrated.fontFamily": "Menlo",
     "search.exclude": {
         "tmp/**": true
     },
-    "editor.letterSpacing": null,
-    "search.location": "sidebar",
     "workbench.editor.enablePreview": false,
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#80CBC4",
-        "list.activeSelectionForeground": "#80CBC4",
-        "list.inactiveSelectionForeground": "#80CBC4",
-        "list.highlightForeground": "#80CBC4",
-        "scrollbarSlider.activeBackground": "#80CBC450",
-        "editorSuggestWidget.highlightForeground": "#80CBC4",
-        "textLink.foreground": "#80CBC4",
-        "progressBar.background": "#80CBC4",
-        "pickerGroup.foreground": "#80CBC4",
-        "tab.activeBorder": "#80CBC4",
-        "notificationLink.foreground": "#80CBC4",
-        "editorWidget.resizeBorder": "#80CBC4",
-        "editorWidget.border": "#80CBC4",
-        "settings.modifiedItemIndicator": "#80CBC4",
-        "settings.modifiedItemForeground": "#80CBC4",
-        "settings.headerForeground": "#80CBC4",
-        "panelTitle.activeBorder": "#80CBC4",
-        "breadcrumb.activeSelectionForeground": "#80CBC4",
-        "menu.selectionForeground": "#80CBC4",
-        "menubar.selectionForeground": "#80CBC4"
+        "settings.modifiedItemForeground": "#80CBC4"
     },
-    "materialTheme.accent": "Teal",
-    "editor.lineHeight": 24,
     "explorer.decorations.badges": false,
-    "eslint.packageManager": "yarn",
-    "typescript.validate.enable": false,
-    "javascript.validate.enable": false,
+    "typescript.validate.enable": true,
+    "javascript.validate.enable": true,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
-    "editor.fontFamily": "DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
-    // "gitlens.currentLine.enabled": false,
+    "sync.forceUpload": true,
+    "editor.fontFamily": "Fira Code, DejaVu Sans Mono, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.activityBar.visible": true,
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "editor.fontLigatures": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.wrapTabs": true,
+    "eslint.run": "onSave",
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "eslint.validate": [
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }

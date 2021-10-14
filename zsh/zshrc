@@ -2,7 +2,7 @@ export ZSH="/Users/goncalo/.oh-my-zsh"
 
 eval "$(rbenv init -)"
 
-ZSH_THEME="robbyrussell-custom"
+ZSH_THEME="spaceship"
 
 plugins=(
   git
