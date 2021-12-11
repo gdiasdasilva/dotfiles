@@ -1,15 +1,20 @@
 export ZSH="/Users/goncalo/.oh-my-zsh"
 
-eval "$(rbenv init -)"
-
 ZSH_THEME="spaceship"
 
 plugins=(
-  git
   zsh-autosuggestions
 )
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1'
 
 source $ZSH/oh-my-zsh.sh
 
 alias ls="ls -G -1"
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1'
+alias dcu="docker compose up"
+alias dcd="docker compose down"
+alias dcr="docker compose run"
+
+# rbenv
+
+# eval "$(rbenv init -)"
